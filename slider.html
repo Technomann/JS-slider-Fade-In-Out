@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="slider.css">
+<div id="slider-container" class="new-layer">
+	<!--SLIDES-->
+	<div class="slider-content default"><!--DEAFULT TO SHOWN ON SITE LOAD-->
+		<!--YOUR SLIDER CONTENT GOES HERE-->
+		<img class="slider-image" src="slide1.jpg">
+		<div class="slider-text">
+		    <div class="slider-title-container"> 
+			 <h1 class="slider-title">LOREM IPSUM DOLOR SIT AMET, CONSETETUR</h1>
+		    </div>
+		    <div class="slider-parag new-layer"> 
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			<a class="uppercase slider-button" href="#">Lorem ipsum</a>
+		    </div>
+		</div>
+	</div>
+	<div class="slider-content">
+		<!--YOUR SLIDER CONTENT GOES HERE-->
+		<img class="slider-image" src="slide2.jpg">
+		<div class="slider-text">
+		    <div class="slider-title-container"> 
+			 <h1 class="slider-title">LOREM IPSUM DOLOR SIT AMET, CONSETETUR</h1>
+		    </div>
+		    <div class="slider-parag new-layer"> 
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			<a class="uppercase slider-button" href="#">Lorem ipsum</a>
+		    </div>
+		</div>
+	</div>
+	<div class="slider-content"><!--DEAFULT TO SHOWN ON SITE LOAD-->
+		<!--YOUR SLIDER CONTENT GOES HERE-->
+		<img class="slider-image" src="slide3.jpg">
+		<div class="slider-text">
+		    <div class="slider-title-container"> 
+			 <h1 class="slider-title">LOREM IPSUM DOLOR SIT AMET, CONSETETUR</h1>
+		    </div>
+		    <div class="slider-parag new-layer"> 
+			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+			<a class="uppercase slider-button" href="#">Lorem ipsum</a>
+		    </div>
+		</div>
+	</div>
+	<!--SLIDES END-->
+
+	<!--DOTS-->
+	<div id="slider-dot-container" class="flexbox zindex">
+		<img class="slider-dot default" src="red_dot.svg" onclick="changeSlideByDot(0)"/>
+		<img class="slider-dot" src="dot.svg" onclick="changeSlideByDot(1)"/>
+		<img class="slider-dot" src="dot.svg" onclick="changeSlideByDot(2)"/>
+	</div>
+	<!--DOTS END-->
+
+	<!--ARROWS-->
+	<div id="slider-controls" class="flexbox zindex">
+		<img class="slider-arrow prev" src="left_arrow.svg" onclick="changeSlideByArrow(false)"/>
+		<img class="slider-arrow next" src="right_arrow.svg" onclick="changeSlideByArrow(true)"/>
+	</div>
+	<!--ARROWS END-->
+</div>
+
+<script src="slider.js"></script>
+<!--OF COURSE THE CONTROL ELEMENTS CAN BE REPLACED WITH OTHER ELEMENTS-->
+<!-- By @retirem - 02.02.2022. -->
